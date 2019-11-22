@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:id="@+id/loading_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D9928A8A"
+    android:gravity="center"
+    android:elevation="100dp">
+
+    <ProgressBar
+      android:id="@+id/loading_progress"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="14dp"
+      android:indeterminate="true"/>
+
+    <TextView
+      android:id="@+id/loading_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="12pt"
+      android:text="Connecting to RFID Reader, please wait..."/>
+
+  </LinearLayout>
+</layout>

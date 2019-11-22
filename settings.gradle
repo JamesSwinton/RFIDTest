@@ -1,0 +1,2 @@
+include ':app', ':RFID API3 SDK'
+rootProject.name='RFIDTestV2'

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Zebra Colours -->
+    <color name="colorPrimary">#0485DF</color>
+    <color name="colorPrimaryDark">#026DB6</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Basic -->
+    <color name="white">#FFF</color>
+    <color name="grey">#444444</color>
+    <color name="disabled_grey">#A3A2A2</color>
+    <color name="black">#000</color>
+
+    <!-- Standard -->
+    <color name="success">#4CAF50</color>
+    <color name="info">#0485DF</color>
+    <color name="warn">#FF7043</color>
+    <color name="error">#E6302D</color>
+</resources>

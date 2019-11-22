@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:id="@+id/empty_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <ImageView
+      android:id="@+id/product_image"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="8"
+      android:tint="#9E9E9E"
+      android:padding="14dp"
+      android:src="@drawable/ic_scanner"/>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="2"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:textSize="14pt"
+      android:layout_margin="4dp"
+      android:text="Please scan or enter a barcode to check for a product recall"/>
+
+  </LinearLayout>
+
+</layout>

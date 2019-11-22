@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('RFID API3 SDK.aar'))

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <PreferenceCategory app:title="Wand Settings" app:iconSpaceReserved="false">
+
+<!--    <SeekBarPreference-->
+<!--      app:key="preference_rfid_read_power"-->
+<!--      app:title="Set RFID Power"-->
+<!--      app:icon="@drawable/ic_scanner"-->
+<!--      app:iconTint="#9E9E9E"/>-->
+
+  </PreferenceCategory>
+
+</PreferenceScreen>
